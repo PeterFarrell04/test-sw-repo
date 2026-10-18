@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: test-sw-repo
+    mongodb:
+        uri: ${MONGO_DB_URI}
+        representation:
+            uuid: standard
