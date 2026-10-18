@@ -5,3 +5,7 @@ spring:
         uri: ${MONGO_DB_URI}
         representation:
             uuid: standard
+server:
+    error:
+        include-message: always
+        include-stacktrace: always
