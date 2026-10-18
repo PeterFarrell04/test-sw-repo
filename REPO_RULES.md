@@ -1,3 +1,17 @@
+The following was generated using claude under the following prompt:
+```
+Analyse the current repository and document the coding standards which can be deduced from the files as a list of rules.
+Coding standards may include: 
+- use of tabs/spaces, 
+- indentation and spacing of characters such as {, }, etc.
+- general architectural info, such as the use and location of Controllers, Services, etc. For these rules specifically include where new files should be created in relation to the root of this repository
+- commenting procedure
+- any other relevant practices which are generally consistent across this codebase
+
+Document any findings as a list of rules in a new file REPO_RULES.md at the root of this repository.
+```
+
+
 # Repository Rules
 
 Coding standards deduced from the existing code in this repository. All paths are relative to the repository root.
